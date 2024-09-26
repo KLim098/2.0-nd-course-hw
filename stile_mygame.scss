@@ -3,15 +3,18 @@
     padding: 0;
 }
 
-.top{    
-    height: 800px;
-    background-image: url(img_mygame/fonstar.jpg);
+.top{  
+    width: 1440px;
+    height: 710px;
+    background-color: rgba(225, 255, 143, 1);  
+    background-image: url(img_mygame/stars_two.png), url(img_mygame/stars_one.png);
+    background-position: 854px -333px, 63px 69px;
     background-repeat: no-repeat;
-    background-position: center;
-    background-size: cover;
+    
 }
 
 .title{
+    height: 710px;
     width: 769px;
     height: 358px;
     padding-top: 196px;
@@ -21,7 +24,7 @@
         width: 769px;
         }
 
-        &__content1{
+        &__content_one{
             font-family: Montserrat;
             font-size: 64px;
             font-weight: 700;
@@ -30,16 +33,29 @@
 
         }           
 
-        &__content2{
-            padding-top: 49px;
-            padding-bottom: 40px;
+        &__content_two{
+            padding-top: 24px;
+            padding-bottom: 48px;
             font-family: Montserrat;
             font-size: 24px;
             font-weight: 400;
             line-height: 32px;
             text-align: left;
 
-        }           
+        }       
+        
+        &__link{   
+            font-family: Montserrat;
+            font-size: 24px;
+            font-weight: 600;
+            line-height: 32px;
+            text-align: left;
+            color: black;
+            text-decoration: none;
+     
+
+
+        }
 
         &__button {
             background: black;
@@ -57,5 +73,85 @@
 
         }
 
+}
+
+.block{
+    width: 1440px;
+    height: 90px;
+    background-color: rgba(188, 236, 48, 1);
+}
+
+.menu_one{  
+    width: 1440px;
+    height: 1470px;
+    background-color: rgba(32, 32, 39, 1);
+    background-image:url(img_mygame/star_four.png), url(img_mygame/stars_tree.png);
+    background-position: 983px 100px, 25px ;
+    background-repeat: no-repeat;
+}
+
+.about{
+    
+    &__content{
+        padding-top: 94px;
+        padding-left: 119px;
+        height: 198px;
+        margin-bottom: 72px;
+
+
+    }
+
+    &__content_one{
+        font-family: Montserrat;
+        font-size: 64px;
+        font-weight: 700;
+        line-height: 78.02px;
+        text-align: left;
+        color: white;
+
+    }
+
+    &__content_two{
+        padding-top: 24px;
+        font-family: Montserrat;
+        font-size: 24px;
+        font-weight: 400;
+        line-height: 32px;
+        text-align: left;
+        color: white;
+        width: 788px;
+        
+
+
+    }
+
+    &__games{
+    padding-left: 119px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    gap: 30px;
+    }
+
+
+    &__window{
+       background: rgba(255, 255, 255, 1);
+       width: 378px;
+       height: 473px;
+       border-radius: 32px;
+       display: inline-block;
+       overflow: hidden;
+       img {
+        transition: 1s;
+        display: block;
+        }
+       img:hover {
+        transform: scale(1.2);
+        }
+    }
+
+
+
 
 }
+
