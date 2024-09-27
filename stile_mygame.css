@@ -110,7 +110,6 @@
 .about__window {
   background: rgb(255, 255, 255);
   width: 378px;
-  height: 473px;
   border-radius: 32px;
   display: inline-block;
   overflow: hidden;
@@ -121,4 +120,46 @@
 }
 .about__window img:hover {
   transform: scale(1.2);
+}
+.about__height_one {
+  height: 473px;
+}
+.about__height_two {
+  height: 512px;
+}
+.about__height_three {
+  height: 473px;
+}
+.about__height_four {
+  height: 551px;
+}
+.about__height_five {
+  height: 512px;
+}
+.about__height_six {
+  height: 551px;
+}
+.about__content_game {
+  margin-top: 32px;
+  width: 108px;
+  height: 36px;
+  background-color: rgb(247, 247, 247);
+  border-radius: 52px;
+  margin-left: 32px;
+  text-align: center;
+  font-family: Montserrat;
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 17.6px;
+  border: none;
+  margin-bottom: 16px;
+}
+.about__name_game {
+  margin-left: 32px;
+  font-family: Montserrat;
+  font-size: 32px;
+  font-weight: 700;
+  line-height: 39.01px;
+  text-align: left;
+  color: rgb(32, 32, 39);
 }/*# sourceMappingURL=stile_mygame.css.map */
