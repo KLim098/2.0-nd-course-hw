@@ -1,0 +1,1 @@
+onload= scrollTo (0, 50)

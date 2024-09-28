@@ -3,8 +3,11 @@
   padding: 0;
 }
 
+html {
+  scroll-behavior: smooth;
+}
+
 .top {
-  width: 1440px;
   height: 710px;
   background-color: rgb(225, 255, 143);
   background-image: url(img_mygame/stars_two.png), url(img_mygame/stars_one.png);
@@ -60,15 +63,17 @@
   text-align: center;
   color: white;
 }
+.title__button:hover {
+  background-color: white;
+  color: black;
+}
 
 .block {
-  width: 1440px;
   height: 90px;
   background-color: rgb(188, 236, 48);
 }
 
 .menu_one {
-  width: 1440px;
   height: 1470px;
   background-color: rgb(32, 32, 39);
   background-image: url(img_mygame/star_four.png), url(img_mygame/stars_tree.png);
@@ -100,12 +105,21 @@
   color: white;
   width: 788px;
 }
-.about__games {
+.about__games_one {
   padding-left: 119px;
   display: flex;
   flex-direction: row;
   flex-wrap: wrap;
   gap: 30px;
+  align-items: flex-start;
+}
+.about__games_two {
+  padding-left: 119px;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  gap: 30px;
+  align-items: flex-end;
 }
 .about__window {
   background: rgb(255, 255, 255);
