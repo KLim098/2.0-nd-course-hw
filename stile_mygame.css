@@ -130,7 +130,7 @@ html {
 }
 .about__window:hover {
   transform: scale(1.05);
-  transition: 1s;
+  transition: 0.5s;
   display: block;
 }
 .about__height__one {
