@@ -96,6 +96,14 @@ html {
 }
 
 .about {
+
+    &__link{
+        text-decoration: none;
+    }
+
+
+
+
     &__content {
         padding-top: 94px;
         padding-left: 119px;
@@ -147,6 +155,7 @@ html {
         border-radius: 32px;
         display: inline-block;
         overflow: hidden;
+    
     }
     &__window:hover {
         transform: scale(1.05);
@@ -180,13 +189,17 @@ html {
         background-color: rgba(247, 247, 247, 1);
         border-radius: 52px;
         margin-left: 32px;
-        text-align: center;
         font-family: Montserrat;
         font-size: 16px;
         font-weight: 500;
         line-height: 17.6px;
         border: none;
         margin-bottom: 16px;
+    }
+
+    &__name{
+        padding-top: 8px;
+        text-align: center;
     }
 
     &__name__game {
