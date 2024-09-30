@@ -96,13 +96,9 @@ html {
 }
 
 .about {
-
-    &__link{
+    &__link {
         text-decoration: none;
     }
-
-
-
 
     &__content {
         padding-top: 94px;
@@ -155,7 +151,6 @@ html {
         border-radius: 32px;
         display: inline-block;
         overflow: hidden;
-    
     }
     &__window:hover {
         transform: scale(1.05);
@@ -197,7 +192,7 @@ html {
         margin-bottom: 16px;
     }
 
-    &__name{
+    &__name {
         padding-top: 8px;
         text-align: center;
     }
