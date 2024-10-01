@@ -76,13 +76,16 @@ html {
   background-repeat: no-repeat;
 }
 
-.about__link {
-  text-decoration: none;
+.about {
+  display: grid;
+  justify-content: center;
 }
 .about__content {
   padding-top: 94px;
-  padding-left: 119px;
-  margin-bottom: 72px;
+  padding-bottom: 72px;
+}
+.about__link {
+  text-decoration: none;
 }
 .about__content__one {
   font-family: Montserrat;
@@ -193,6 +196,8 @@ html {
   .top {
     width: 425px;
     height: 650px;
+    background-image: url(img_mygame/stars_one.png), url(img_mygame/stars_two_mobile.png), url(img_mygame/stars_three_mobile.png);
+    background-position: 37px 64px, 265px 0px, 303px 557px;
   }
   .block {
     width: 425px;
@@ -237,8 +242,7 @@ html {
   }
   .about__content {
     padding-top: 48px;
-    padding-left: 22px;
-    margin-bottom: 48px;
+    padding-bottom: 48px;
   }
   .about__content__one {
     display: none;

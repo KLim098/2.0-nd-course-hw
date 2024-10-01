@@ -3,9 +3,9 @@
     padding: 0;
 }
 
-.center{
-padding-top: 196px;
-padding-left: 120px;
+.center {
+    padding-top: 196px;
+    padding-left: 120px;
 }
 
 html {
@@ -23,7 +23,6 @@ html {
 }
 
 .title {
-
     &__content__one {
         font-family: Montserrat;
         font-size: 64px;
@@ -39,10 +38,8 @@ html {
         font-size: 24px;
         font-weight: 400;
         line-height: 32px;
-        width:720px;
-
+        width: 720px;
     }
-    
 
     &__link {
         font-family: Montserrat;
@@ -90,14 +87,16 @@ html {
 }
 
 .about {
-    &__link {
-        text-decoration: none;
-    }
+    display: grid;
+    justify-content: center;
 
     &__content {
         padding-top: 94px;
-        padding-left: 119px;
-        margin-bottom: 72px;
+        padding-bottom: 72px;
+    }
+
+    &__link {
+        text-decoration: none;
     }
 
     &__content__one {
@@ -109,12 +108,11 @@ html {
         color: white;
     }
 
-    &__content__mobile{
+    &__content__mobile {
         display: none;
-
     }
 
-    &__content__vermobile{
+    &__content__vermobile {
         display: none;
     }
 
@@ -209,4 +207,4 @@ html {
     }
 }
 
-@import "mobver"
+@import "mobver";

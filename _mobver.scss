@@ -11,6 +11,12 @@
     .top {
         width: 425px;
         height: 650px;
+        background-image: url(img_mygame/stars_one.png), url(img_mygame/stars_two_mobile.png),
+            url(img_mygame/stars_three_mobile.png);
+        background-position:
+            37px 64px,
+            265px 0px,
+            303px 557px;
     }
 
     .block {
@@ -53,7 +59,7 @@
         }
     }
 
-    .block{
+    .block {
         height: 50px;
     }
 
@@ -66,8 +72,7 @@
     .about {
         &__content {
             padding-top: 48px;
-            padding-left: 22px;
-            margin-bottom: 48px;
+            padding-bottom: 48px;
         }
 
         &__content__one {
