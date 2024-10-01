@@ -3,11 +3,6 @@
   padding: 0;
 }
 
-.center {
-  padding-top: 196px;
-  padding-left: 120px;
-}
-
 html {
   scroll-behavior: smooth;
 }
@@ -20,6 +15,10 @@ html {
   background-repeat: no-repeat;
 }
 
+.title {
+  padding-top: 196px;
+  padding-left: 120px;
+}
 .title__content__one {
   font-family: Montserrat;
   font-size: 64px;
@@ -185,14 +184,6 @@ html {
 }
 
 @media (min-width: 320px) and (max-width: 425px) {
-  .center {
-    padding-top: 147px;
-    padding-left: 0px;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    text-align: center;
-  }
   .top {
     width: 425px;
     height: 650px;
@@ -201,6 +192,14 @@ html {
   }
   .block {
     width: 425px;
+  }
+  .title {
+    padding-top: 147px;
+    padding-left: 0px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
   }
   .title__content__one {
     width: 262px;

@@ -3,11 +3,6 @@
     padding: 0;
 }
 
-.center {
-    padding-top: 196px;
-    padding-left: 120px;
-}
-
 html {
     scroll-behavior: smooth;
 }
@@ -23,6 +18,8 @@ html {
 }
 
 .title {
+    padding-top: 196px;
+    padding-left: 120px;
     &__content__one {
         font-family: Montserrat;
         font-size: 64px;
