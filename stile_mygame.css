@@ -25,14 +25,14 @@ html {
 .title__content {
   width: 769px;
 }
-.title__content_one {
+.title__content__one {
   font-family: Montserrat;
   font-size: 64px;
   font-weight: 700;
   line-height: 78.02px;
   text-align: left;
 }
-.title__content_two {
+.title__content__two {
   padding-top: 24px;
   padding-bottom: 48px;
   font-family: Montserrat;
@@ -73,7 +73,7 @@ html {
   background-color: rgb(188, 236, 48);
 }
 
-.menu_one {
+.menu1 {
   height: 1470px;
   background-color: rgb(32, 32, 39);
   background-image: url(img_mygame/star_four.png), url(img_mygame/stars_tree.png);
@@ -81,13 +81,16 @@ html {
   background-repeat: no-repeat;
 }
 
+.about__link {
+  text-decoration: none;
+}
 .about__content {
   padding-top: 94px;
   padding-left: 119px;
   height: 198px;
   margin-bottom: 72px;
 }
-.about__content_one {
+.about__content__one {
   font-family: Montserrat;
   font-size: 64px;
   font-weight: 700;
@@ -95,7 +98,7 @@ html {
   text-align: left;
   color: white;
 }
-.about__content_two {
+.about__content__two {
   padding-top: 24px;
   font-family: Montserrat;
   font-size: 24px;
@@ -105,21 +108,21 @@ html {
   color: white;
   width: 788px;
 }
-.about__games_one {
-  padding-left: 119px;
+.about__games__one {
   display: flex;
   flex-direction: row;
   flex-wrap: wrap;
   gap: 30px;
   align-items: flex-start;
+  justify-content: center;
 }
-.about__games_two {
-  padding-left: 119px;
+.about__games__two {
   display: flex;
   flex-direction: row;
   flex-wrap: wrap;
   gap: 30px;
   align-items: flex-end;
+  justify-content: center;
 }
 .about__window {
   background: rgb(255, 255, 255);
@@ -128,39 +131,36 @@ html {
   display: inline-block;
   overflow: hidden;
 }
-.about__window img {
-  transition: 1s;
+.about__window:hover {
+  transform: scale(1.05);
+  transition: 0.5s;
   display: block;
 }
-.about__window img:hover {
-  transform: scale(1.2);
-}
-.about__height_one {
+.about__height__one {
   height: 473px;
 }
-.about__height_two {
+.about__height__two {
   height: 512px;
 }
-.about__height_three {
+.about__height__three {
   height: 473px;
 }
-.about__height_four {
+.about__height__four {
   height: 551px;
 }
-.about__height_five {
+.about__height__five {
   height: 512px;
 }
-.about__height_six {
+.about__height__six {
   height: 551px;
 }
-.about__content_game {
+.about__content__game {
   margin-top: 32px;
   width: 108px;
   height: 36px;
   background-color: rgb(247, 247, 247);
   border-radius: 52px;
   margin-left: 32px;
-  text-align: center;
   font-family: Montserrat;
   font-size: 16px;
   font-weight: 500;
@@ -168,7 +168,11 @@ html {
   border: none;
   margin-bottom: 16px;
 }
-.about__name_game {
+.about__name {
+  padding-top: 8px;
+  text-align: center;
+}
+.about__name__game {
   margin-left: 32px;
   font-family: Montserrat;
   font-size: 32px;

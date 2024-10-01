@@ -1,0 +1,46 @@
+@media (min-width:325px) and (max-width:425px) {
+
+    .top{  
+        height: 710px;
+        background-color: rgba(225, 255, 143, 1);  
+        background-image: url(img_mygame/stars_two.png), url(img_mygame/stars_one.png);
+        background-position: 854px -333px, 63px 69px;
+        background-repeat: no-repeat;
+        
+    }
+
+    .title{
+        padding-top: 147px;
+        padding-left: 41px;
+
+        &__content_one{
+            font-family: Montserrat;
+            font-size: 40px;
+            font-weight: 700;
+            line-height: 48.76px;
+            text-align: center;
+            width: 262px;
+            height: 196px;
+        }
+
+        &__content_two{
+        font-family: Montserrat;
+        font-size: 16px;
+        font-weight: 400;
+        line-height: 19.5px;
+        text-align: center;
+        width: 296px;
+        height: 60px;
+        }
+
+        &__link{
+            font-family: Montserrat;
+            font-size: 16px;
+            font-weight: 600;
+            line-height: 19.5px;
+            text-align: center;
+
+        }
+    }
+    
+}
