@@ -21,15 +21,10 @@ html {
 }
 
 .title {
-    height: 710px;
     width: 769px;
     height: 358px;
     padding-top: 196px;
     padding-left: 120px;
-
-    &__content {
-        width: 769px;
-    }
 
     &__content__one {
         font-family: Montserrat;
@@ -48,6 +43,7 @@ html {
         line-height: 32px;
         text-align: left;
     }
+    
 
     &__link {
         font-family: Montserrat;
@@ -103,7 +99,6 @@ html {
     &__content {
         padding-top: 94px;
         padding-left: 119px;
-        height: 198px;
         margin-bottom: 72px;
     }
 
@@ -116,6 +111,15 @@ html {
         color: white;
     }
 
+    &__content__mobile{
+        display: none;
+
+    }
+
+    &__content__vermobile{
+        display: none;
+    }
+
     &__content__two {
         padding-top: 24px;
         font-family: Montserrat;
@@ -124,7 +128,6 @@ html {
         line-height: 32px;
         text-align: left;
         color: white;
-        width: 788px;
     }
 
     &__games__one {
@@ -171,7 +174,7 @@ html {
         height: 551px;
     }
     &__height__five {
-        height: 512px;
+        height: 528px;
     }
     &__height__six {
         height: 551px;
@@ -207,3 +210,5 @@ html {
         color: rgba(32, 32, 39, 1);
     }
 }
+
+@import "mobver"
