@@ -3,6 +3,11 @@
   padding: 0;
 }
 
+.center {
+  padding-top: 196px;
+  padding-left: 120px;
+}
+
 html {
   scroll-behavior: smooth;
 }
@@ -15,18 +20,12 @@ html {
   background-repeat: no-repeat;
 }
 
-.title {
-  width: 769px;
-  height: 358px;
-  padding-top: 196px;
-  padding-left: 120px;
-}
 .title__content__one {
   font-family: Montserrat;
   font-size: 64px;
   font-weight: 700;
   line-height: 78.02px;
-  text-align: left;
+  width: 769px;
 }
 .title__content__two {
   padding-top: 24px;
@@ -35,7 +34,7 @@ html {
   font-size: 24px;
   font-weight: 400;
   line-height: 32px;
-  text-align: left;
+  width: 720px;
 }
 .title__link {
   font-family: Montserrat;
@@ -183,41 +182,53 @@ html {
 }
 
 @media (min-width: 320px) and (max-width: 425px) {
+  .center {
+    padding-top: 147px;
+    padding-left: 0px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+  }
   .top {
     width: 425px;
+    height: 650px;
   }
   .block {
     width: 425px;
   }
-  .title {
-    text-align: center;
-    width: 376px;
-    height: 371px;
-    padding-top: 170px;
-    padding-left: 17px;
-  }
   .title__content__one {
+    width: 262px;
     font-family: Montserrat;
     font-size: 40px;
     font-weight: 700;
     line-height: 48.76px;
-    text-align: center;
-    width: 276px;
   }
   .title__content__two {
+    width: 296px;
     font-family: Montserrat;
     font-size: 16px;
     font-weight: 400;
     line-height: 19.5px;
-    text-align: center;
-    width: 276px;
+    padding-bottom: 36px;
   }
   .title__link {
     font-family: Montserrat;
     font-size: 16px;
     font-weight: 600;
     line-height: 19.5px;
+  }
+  .title__button {
+    width: 285pxpx;
+    height: 55px;
+    font-family: Montserrat;
+    font-size: 16px;
+    font-weight: 600;
+    line-height: 22.67px;
     text-align: center;
+  }
+  .block {
+    height: 50px;
   }
   .menu1 {
     height: 375px;

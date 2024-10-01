@@ -1,6 +1,16 @@
 @media (min-width: 320px) and (max-width: 425px) {
+    .center {
+        padding-top: 147px;
+        padding-left: 0px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+    }
+
     .top {
         width: 425px;
+        height: 650px;
     }
 
     .block {
@@ -8,28 +18,21 @@
     }
 
     .title {
-        text-align: center;
-        width: 376px;
-        height: 371px;
-        padding-top: 170px;
-        padding-left: 17px;
-
         &__content__one {
+            width: 262px;
             font-family: Montserrat;
             font-size: 40px;
             font-weight: 700;
             line-height: 48.76px;
-            text-align: center;
-            width: 276px;
         }
 
         &__content__two {
+            width: 296px;
             font-family: Montserrat;
             font-size: 16px;
             font-weight: 400;
             line-height: 19.5px;
-            text-align: center;
-            width: 276px;
+            padding-bottom: 36px;
         }
 
         &__link {
@@ -37,8 +40,21 @@
             font-size: 16px;
             font-weight: 600;
             line-height: 19.5px;
+        }
+
+        &__button {
+            width: 285pxpx;
+            height: 55px;
+            font-family: Montserrat;
+            font-size: 16px;
+            font-weight: 600;
+            line-height: 22.67px;
             text-align: center;
         }
+    }
+
+    .block{
+        height: 50px;
     }
 
     .menu1 {
@@ -115,7 +131,6 @@
         &__name__game {
             width: 285px;
         }
-
 
         &__button__mobile:hover {
             background-color: white;
