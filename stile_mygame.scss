@@ -3,9 +3,6 @@
     padding: 0;
 }
 
-.center {
-}
-
 html {
     scroll-behavior: smooth;
 }
@@ -21,22 +18,14 @@ html {
 }
 
 .title {
-    height: 710px;
-    width: 769px;
-    height: 358px;
     padding-top: 196px;
     padding-left: 120px;
-
-    &__content {
-        width: 769px;
-    }
-
     &__content__one {
         font-family: Montserrat;
         font-size: 64px;
         font-weight: 700;
         line-height: 78.02px;
-        text-align: left;
+        width: 769px;
     }
 
     &__content__two {
@@ -46,7 +35,7 @@ html {
         font-size: 24px;
         font-weight: 400;
         line-height: 32px;
-        text-align: left;
+        width: 720px;
     }
 
     &__link {
@@ -65,7 +54,6 @@ html {
         height: 66px;
         border-radius: 60px;
         border: 1px;
-
         font-family: Montserrat;
         font-size: 24px;
         font-weight: 600;
@@ -96,15 +84,16 @@ html {
 }
 
 .about {
-    &__link {
-        text-decoration: none;
-    }
+    display: grid;
+    justify-content: center;
 
     &__content {
         padding-top: 94px;
-        padding-left: 119px;
-        height: 198px;
-        margin-bottom: 72px;
+        padding-bottom: 72px;
+    }
+
+    &__link {
+        text-decoration: none;
     }
 
     &__content__one {
@@ -116,6 +105,14 @@ html {
         color: white;
     }
 
+    &__content__mobile {
+        display: none;
+    }
+
+    &__content__vermobile {
+        display: none;
+    }
+
     &__content__two {
         padding-top: 24px;
         font-family: Montserrat;
@@ -124,7 +121,6 @@ html {
         line-height: 32px;
         text-align: left;
         color: white;
-        width: 788px;
     }
 
     &__games__one {
@@ -171,7 +167,7 @@ html {
         height: 551px;
     }
     &__height__five {
-        height: 512px;
+        height: 528px;
     }
     &__height__six {
         height: 551px;
@@ -207,3 +203,5 @@ html {
         color: rgba(32, 32, 39, 1);
     }
 }
+
+@import "mobver";

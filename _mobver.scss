@@ -1,46 +1,188 @@
-@media (min-width:325px) and (max-width:425px) {
-
-    .top{  
-        height: 710px;
-        background-color: rgba(225, 255, 143, 1);  
-        background-image: url(img_mygame/stars_two.png), url(img_mygame/stars_one.png);
-        background-position: 854px -333px, 63px 69px;
-        background-repeat: no-repeat;
-        
+@media (min-width: 320px) and (max-width: 425px) {
+    .top {
+        width: 425px;
+        height: 650px;
+        background-image: url(img_mygame/stars_one.png), url(img_mygame/stars_two_mobile.png),
+            url(img_mygame/stars_three_mobile.png);
+        background-position:
+            37px 64px,
+            265px 0px,
+            303px 557px;
     }
 
-    .title{
-        padding-top: 147px;
-        padding-left: 41px;
+    .block {
+        width: 425px;
+    }
 
-        &__content_one{
+    .title {
+        padding-top: 147px;
+        padding-left: 0px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+        &__content__one {
+            width: 262px;
             font-family: Montserrat;
             font-size: 40px;
             font-weight: 700;
             line-height: 48.76px;
-            text-align: center;
-            width: 262px;
-            height: 196px;
         }
 
-        &__content_two{
-        font-family: Montserrat;
-        font-size: 16px;
-        font-weight: 400;
-        line-height: 19.5px;
-        text-align: center;
-        width: 296px;
-        height: 60px;
+        &__content__two {
+            width: 296px;
+            font-family: Montserrat;
+            font-size: 16px;
+            font-weight: 400;
+            line-height: 19.5px;
+            padding-bottom: 36px;
         }
 
-        &__link{
+        &__link {
             font-family: Montserrat;
             font-size: 16px;
             font-weight: 600;
             line-height: 19.5px;
-            text-align: center;
+        }
 
+        &__button {
+            width: 285pxpx;
+            height: 55px;
+            font-family: Montserrat;
+            font-size: 16px;
+            font-weight: 600;
+            line-height: 22.67px;
+            text-align: center;
         }
     }
-    
+
+    .block {
+        height: 50px;
+    }
+
+    .menu1 {
+        height: 375px;
+        height: 3740px;
+        width: 425px;
+    }
+
+    .about {
+        &__content {
+            padding-top: 48px;
+            padding-bottom: 48px;
+        }
+
+        &__content__one {
+            display: none;
+        }
+
+        &__height__one {
+            height: 529px;
+        }
+        &__height__two {
+            height: 567px;
+        }
+        &__height__three {
+            height: 567px;
+        }
+        &__height__four {
+            height: 606px;
+        }
+        &__height__five {
+            height: 528px;
+        }
+        &__height__six {
+            height: 626px;
+        }
+
+        &__window {
+            width: 343px;
+        }
+
+        &__game {
+            height: 285px;
+        }
+
+        &__content__mobile {
+            display: contents;
+            font-family: Montserrat;
+            font-size: 40px;
+            font-weight: 700;
+            line-height: 48.76px;
+            text-align: left;
+            color: white;
+            font-family: Montserrat;
+        }
+
+        &__link {
+            text-align: center;
+        }
+
+        &__button__mobile {
+            width: 285px;
+            height: 55px;
+            border-radius: 60px;
+            border: 1px;
+            background: black;
+            color: white;
+            font-family: Montserrat;
+            font-size: 16px;
+            font-weight: 600;
+            line-height: 22.67px;
+        }
+        &__name__game {
+            width: 285px;
+        }
+
+        &__button__mobile:hover {
+            background-color: white;
+            color: black;
+        }
+
+        &__content__two {
+            display: none;
+        }
+
+        &__content__verlaptop {
+            display: none;
+        }
+
+        &__content__vermobile {
+            display: inline;
+        }
+
+        &__name__game {
+            margin-top: 29px;
+            margin-left: 29px;
+        }
+
+        &__name__mobile {
+            height: 40px;
+            margin-top: 16px;
+            margin-left: 29px;
+            font-family: Montserrat;
+            font-size: 16px;
+            font-weight: 400;
+            line-height: 19.5px;
+            text-align: left;
+            width: 285px;
+            margin-bottom: 32px;
+        }
+
+        &__games__one {
+            margin-bottom: 24px;
+        }
+        &__games__one {
+            display: flex;
+            align-items: center;
+            flex-direction: column;
+            gap: 24px;
+        }
+        &__games__two {
+            display: flex;
+            align-items: center;
+            flex-direction: column;
+            gap: 24px;
+        }
+    }
 }
