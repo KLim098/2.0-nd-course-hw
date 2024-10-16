@@ -20,7 +20,7 @@ html {
 .title {
     padding-top: 196px;
     padding-left: 120px;
-    &__content__one {
+    &__content_title {
         font-family: Montserrat;
         font-size: 64px;
         font-weight: 700;
@@ -28,7 +28,7 @@ html {
         width: 769px;
     }
 
-    &__content__two {
+    &__content_subtitle {
         padding-top: 24px;
         padding-bottom: 48px;
         font-family: Montserrat;
@@ -96,7 +96,7 @@ html {
         text-decoration: none;
     }
 
-    &__content__one {
+    &__content_title {
         font-family: Montserrat;
         font-size: 64px;
         font-weight: 700;
@@ -105,15 +105,15 @@ html {
         color: white;
     }
 
-    &__content__mobile {
+    &__content_mobile {
         display: none;
     }
 
-    &__content__vermobile {
+    &__content_vermobile {
         display: none;
     }
 
-    &__content__two {
+    &__content_subtitle {
         padding-top: 24px;
         font-family: Montserrat;
         font-size: 24px;
@@ -123,7 +123,7 @@ html {
         color: white;
     }
 
-    &__games__one {
+    &__games_start {
         display: flex;
         flex-direction: row;
         flex-wrap: wrap;
@@ -132,7 +132,7 @@ html {
         justify-content: center;
     }
 
-    &__games__two {
+    &__games_end {
         display: flex;
         flex-direction: row;
         flex-wrap: wrap;
@@ -154,26 +154,26 @@ html {
         display: block;
     }
 
-    &__height__one {
+    &__height_one {
         height: 473px;
     }
-    &__height__two {
+    &__height_two {
         height: 512px;
     }
-    &__height__three {
+    &__height_three {
         height: 473px;
     }
-    &__height__four {
+    &__height_four {
         height: 551px;
     }
-    &__height__five {
+    &__height_five {
         height: 528px;
     }
-    &__height__six {
+    &__height_six {
         height: 551px;
     }
 
-    &__content__game {
+    &__content_game {
         margin-top: 32px;
         width: 108px;
         height: 36px;
@@ -191,9 +191,11 @@ html {
     &__name {
         padding-top: 8px;
         text-align: center;
+        color:  rgba(39, 26, 88, 1);
+
     }
 
-    &__name__game {
+    &__name_game {
         margin-left: 32px;
         font-family: Montserrat;
         font-size: 32px;

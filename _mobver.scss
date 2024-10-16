@@ -21,7 +21,7 @@
         flex-direction: column;
         align-items: center;
         text-align: center;
-        &__content__one {
+        &__content_title {
             width: 262px;
             font-family: Montserrat;
             font-size: 40px;
@@ -29,7 +29,7 @@
             line-height: 48.76px;
         }
 
-        &__content__two {
+        &__content_subtitle {
             width: 296px;
             font-family: Montserrat;
             font-size: 16px;
@@ -72,26 +72,26 @@
             padding-bottom: 48px;
         }
 
-        &__content__one {
+        &__content_title {
             display: none;
         }
 
-        &__height__one {
+        &__height_one {
             height: 529px;
         }
-        &__height__two {
+        &__height_two {
             height: 567px;
         }
-        &__height__three {
+        &__height_three {
             height: 567px;
         }
-        &__height__four {
+        &__height_four {
             height: 606px;
         }
-        &__height__five {
+        &__height_five {
             height: 528px;
         }
-        &__height__six {
+        &__height_six {
             height: 626px;
         }
 
@@ -103,7 +103,7 @@
             height: 285px;
         }
 
-        &__content__mobile {
+        &__content_mobile {
             display: contents;
             font-family: Montserrat;
             font-size: 40px;
@@ -118,7 +118,7 @@
             text-align: center;
         }
 
-        &__button__mobile {
+        &__button_mobile {
             width: 285px;
             height: 55px;
             border-radius: 60px;
@@ -130,33 +130,33 @@
             font-weight: 600;
             line-height: 22.67px;
         }
-        &__name__game {
+        &__name_game {
             width: 285px;
         }
 
-        &__button__mobile:hover {
+        &__button_mobile:hover {
             background-color: white;
             color: black;
         }
 
-        &__content__two {
+        &__content_subtitle {
             display: none;
         }
 
-        &__content__verlaptop {
+        &__content_verlaptop {
             display: none;
         }
 
-        &__content__vermobile {
+        &__content_vermobile {
             display: inline;
         }
 
-        &__name__game {
+        &__name_game {
             margin-top: 29px;
             margin-left: 29px;
         }
 
-        &__name__mobile {
+        &__name_mobile {
             height: 40px;
             margin-top: 16px;
             margin-left: 29px;
@@ -167,18 +167,17 @@
             text-align: left;
             width: 285px;
             margin-bottom: 32px;
+            color: rgba(39, 26, 88, 1);
         }
 
-        &__games__one {
-            margin-bottom: 24px;
-        }
-        &__games__one {
+        &__games_start {
             display: flex;
             align-items: center;
             flex-direction: column;
             gap: 24px;
+            margin-bottom: 24px;
         }
-        &__games__two {
+        &__games_end {
             display: flex;
             align-items: center;
             flex-direction: column;

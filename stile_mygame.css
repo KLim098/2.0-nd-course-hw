@@ -19,14 +19,14 @@ html {
   padding-top: 196px;
   padding-left: 120px;
 }
-.title__content__one {
+.title__content_title {
   font-family: Montserrat;
   font-size: 64px;
   font-weight: 700;
   line-height: 78.02px;
   width: 769px;
 }
-.title__content__two {
+.title__content_subtitle {
   padding-top: 24px;
   padding-bottom: 48px;
   font-family: Montserrat;
@@ -86,7 +86,7 @@ html {
 .about__link {
   text-decoration: none;
 }
-.about__content__one {
+.about__content_title {
   font-family: Montserrat;
   font-size: 64px;
   font-weight: 700;
@@ -94,13 +94,13 @@ html {
   text-align: left;
   color: white;
 }
-.about__content__mobile {
+.about__content_mobile {
   display: none;
 }
-.about__content__vermobile {
+.about__content_vermobile {
   display: none;
 }
-.about__content__two {
+.about__content_subtitle {
   padding-top: 24px;
   font-family: Montserrat;
   font-size: 24px;
@@ -109,7 +109,7 @@ html {
   text-align: left;
   color: white;
 }
-.about__games__one {
+.about__games_start {
   display: flex;
   flex-direction: row;
   flex-wrap: wrap;
@@ -117,7 +117,7 @@ html {
   align-items: flex-start;
   justify-content: center;
 }
-.about__games__two {
+.about__games_end {
   display: flex;
   flex-direction: row;
   flex-wrap: wrap;
@@ -137,25 +137,25 @@ html {
   transition: 0.5s;
   display: block;
 }
-.about__height__one {
+.about__height_one {
   height: 473px;
 }
-.about__height__two {
+.about__height_two {
   height: 512px;
 }
-.about__height__three {
+.about__height_three {
   height: 473px;
 }
-.about__height__four {
+.about__height_four {
   height: 551px;
 }
-.about__height__five {
+.about__height_five {
   height: 528px;
 }
-.about__height__six {
+.about__height_six {
   height: 551px;
 }
-.about__content__game {
+.about__content_game {
   margin-top: 32px;
   width: 108px;
   height: 36px;
@@ -172,8 +172,9 @@ html {
 .about__name {
   padding-top: 8px;
   text-align: center;
+  color: rgb(39, 26, 88);
 }
-.about__name__game {
+.about__name_game {
   margin-left: 32px;
   font-family: Montserrat;
   font-size: 32px;
@@ -201,14 +202,14 @@ html {
     align-items: center;
     text-align: center;
   }
-  .title__content__one {
+  .title__content_title {
     width: 262px;
     font-family: Montserrat;
     font-size: 40px;
     font-weight: 700;
     line-height: 48.76px;
   }
-  .title__content__two {
+  .title__content_subtitle {
     width: 296px;
     font-family: Montserrat;
     font-size: 16px;
@@ -243,25 +244,25 @@ html {
     padding-top: 48px;
     padding-bottom: 48px;
   }
-  .about__content__one {
+  .about__content_title {
     display: none;
   }
-  .about__height__one {
+  .about__height_one {
     height: 529px;
   }
-  .about__height__two {
+  .about__height_two {
     height: 567px;
   }
-  .about__height__three {
+  .about__height_three {
     height: 567px;
   }
-  .about__height__four {
+  .about__height_four {
     height: 606px;
   }
-  .about__height__five {
+  .about__height_five {
     height: 528px;
   }
-  .about__height__six {
+  .about__height_six {
     height: 626px;
   }
   .about__window {
@@ -270,7 +271,7 @@ html {
   .about__game {
     height: 285px;
   }
-  .about__content__mobile {
+  .about__content_mobile {
     display: contents;
     font-family: Montserrat;
     font-size: 40px;
@@ -283,7 +284,7 @@ html {
   .about__link {
     text-align: center;
   }
-  .about__button__mobile {
+  .about__button_mobile {
     width: 285px;
     height: 55px;
     border-radius: 60px;
@@ -295,27 +296,27 @@ html {
     font-weight: 600;
     line-height: 22.67px;
   }
-  .about__name__game {
+  .about__name_game {
     width: 285px;
   }
-  .about__button__mobile:hover {
+  .about__button_mobile:hover {
     background-color: white;
     color: black;
   }
-  .about__content__two {
+  .about__content_subtitle {
     display: none;
   }
-  .about__content__verlaptop {
+  .about__content_verlaptop {
     display: none;
   }
-  .about__content__vermobile {
+  .about__content_vermobile {
     display: inline;
   }
-  .about__name__game {
+  .about__name_game {
     margin-top: 29px;
     margin-left: 29px;
   }
-  .about__name__mobile {
+  .about__name_mobile {
     height: 40px;
     margin-top: 16px;
     margin-left: 29px;
@@ -326,17 +327,16 @@ html {
     text-align: left;
     width: 285px;
     margin-bottom: 32px;
+    color: rgb(39, 26, 88);
   }
-  .about__games__one {
-    margin-bottom: 24px;
-  }
-  .about__games__one {
+  .about__games_start {
     display: flex;
     align-items: center;
     flex-direction: column;
     gap: 24px;
+    margin-bottom: 24px;
   }
-  .about__games__two {
+  .about__games_end {
     display: flex;
     align-items: center;
     flex-direction: column;
