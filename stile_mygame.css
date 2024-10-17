@@ -16,30 +16,24 @@ html {
 }
 
 .title {
-  height: 710px;
-  width: 769px;
-  height: 358px;
   padding-top: 196px;
   padding-left: 120px;
 }
-.title__content {
-  width: 769px;
-}
-.title__content__one {
+.title__content_title {
   font-family: Montserrat;
   font-size: 64px;
   font-weight: 700;
   line-height: 78.02px;
-  text-align: left;
+  width: 769px;
 }
-.title__content__two {
+.title__content_subtitle {
   padding-top: 24px;
   padding-bottom: 48px;
   font-family: Montserrat;
   font-size: 24px;
   font-weight: 400;
   line-height: 32px;
-  text-align: left;
+  width: 720px;
 }
 .title__link {
   font-family: Montserrat;
@@ -81,16 +75,18 @@ html {
   background-repeat: no-repeat;
 }
 
-.about__link {
-  text-decoration: none;
+.about {
+  display: grid;
+  justify-content: center;
 }
 .about__content {
   padding-top: 94px;
-  padding-left: 119px;
-  height: 198px;
-  margin-bottom: 72px;
+  padding-bottom: 72px;
 }
-.about__content__one {
+.about__link {
+  text-decoration: none;
+}
+.about__content_title {
   font-family: Montserrat;
   font-size: 64px;
   font-weight: 700;
@@ -98,7 +94,13 @@ html {
   text-align: left;
   color: white;
 }
-.about__content__two {
+.about__content_mobile {
+  display: none;
+}
+.about__content_vermobile {
+  display: none;
+}
+.about__content_subtitle {
   padding-top: 24px;
   font-family: Montserrat;
   font-size: 24px;
@@ -106,9 +108,8 @@ html {
   line-height: 32px;
   text-align: left;
   color: white;
-  width: 788px;
 }
-.about__games__one {
+.about__games_start {
   display: flex;
   flex-direction: row;
   flex-wrap: wrap;
@@ -116,7 +117,7 @@ html {
   align-items: flex-start;
   justify-content: center;
 }
-.about__games__two {
+.about__games_end {
   display: flex;
   flex-direction: row;
   flex-wrap: wrap;
@@ -136,25 +137,25 @@ html {
   transition: 0.5s;
   display: block;
 }
-.about__height__one {
+.about__height_one {
   height: 473px;
 }
-.about__height__two {
+.about__height_two {
   height: 512px;
 }
-.about__height__three {
+.about__height_three {
   height: 473px;
 }
-.about__height__four {
+.about__height_four {
   height: 551px;
 }
-.about__height__five {
-  height: 512px;
+.about__height_five {
+  height: 528px;
 }
-.about__height__six {
+.about__height_six {
   height: 551px;
 }
-.about__content__game {
+.about__content_game {
   margin-top: 32px;
   width: 108px;
   height: 36px;
@@ -171,8 +172,9 @@ html {
 .about__name {
   padding-top: 8px;
   text-align: center;
+  color: rgb(39, 26, 88);
 }
-.about__name__game {
+.about__name_game {
   margin-left: 32px;
   font-family: Montserrat;
   font-size: 32px;
@@ -180,4 +182,164 @@ html {
   line-height: 39.01px;
   text-align: left;
   color: rgb(32, 32, 39);
+}
+
+@media (min-width: 320px) and (max-width: 425px) {
+  .top {
+    width: 425px;
+    height: 650px;
+    background-image: url(img_mygame/stars_one.png), url(img_mygame/stars_two_mobile.png), url(img_mygame/stars_three_mobile.png);
+    background-position: 37px 64px, 265px 0px, 303px 557px;
+  }
+  .block {
+    width: 425px;
+  }
+  .title {
+    padding-top: 147px;
+    padding-left: 0px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+  }
+  .title__content_title {
+    width: 262px;
+    font-family: Montserrat;
+    font-size: 40px;
+    font-weight: 700;
+    line-height: 48.76px;
+  }
+  .title__content_subtitle {
+    width: 296px;
+    font-family: Montserrat;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 19.5px;
+    padding-bottom: 36px;
+  }
+  .title__link {
+    font-family: Montserrat;
+    font-size: 16px;
+    font-weight: 600;
+    line-height: 19.5px;
+  }
+  .title__button {
+    width: 285pxpx;
+    height: 55px;
+    font-family: Montserrat;
+    font-size: 16px;
+    font-weight: 600;
+    line-height: 22.67px;
+    text-align: center;
+  }
+  .block {
+    height: 50px;
+  }
+  .menu1 {
+    height: 375px;
+    height: 3740px;
+    width: 425px;
+  }
+  .about__content {
+    padding-top: 48px;
+    padding-bottom: 48px;
+  }
+  .about__content_title {
+    display: none;
+  }
+  .about__height_one {
+    height: 529px;
+  }
+  .about__height_two {
+    height: 567px;
+  }
+  .about__height_three {
+    height: 567px;
+  }
+  .about__height_four {
+    height: 606px;
+  }
+  .about__height_five {
+    height: 528px;
+  }
+  .about__height_six {
+    height: 626px;
+  }
+  .about__window {
+    width: 343px;
+  }
+  .about__game {
+    height: 285px;
+  }
+  .about__content_mobile {
+    display: contents;
+    font-family: Montserrat;
+    font-size: 40px;
+    font-weight: 700;
+    line-height: 48.76px;
+    text-align: left;
+    color: white;
+    font-family: Montserrat;
+  }
+  .about__link {
+    text-align: center;
+  }
+  .about__button_mobile {
+    width: 285px;
+    height: 55px;
+    border-radius: 60px;
+    border: 1px;
+    background: black;
+    color: white;
+    font-family: Montserrat;
+    font-size: 16px;
+    font-weight: 600;
+    line-height: 22.67px;
+  }
+  .about__name_game {
+    width: 285px;
+  }
+  .about__button_mobile:hover {
+    background-color: white;
+    color: black;
+  }
+  .about__content_subtitle {
+    display: none;
+  }
+  .about__content_verlaptop {
+    display: none;
+  }
+  .about__content_vermobile {
+    display: inline;
+  }
+  .about__name_game {
+    margin-top: 29px;
+    margin-left: 29px;
+  }
+  .about__name_mobile {
+    height: 40px;
+    margin-top: 16px;
+    margin-left: 29px;
+    font-family: Montserrat;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 19.5px;
+    text-align: left;
+    width: 285px;
+    margin-bottom: 32px;
+    color: rgb(39, 26, 88);
+  }
+  .about__games_start {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    gap: 24px;
+    margin-bottom: 24px;
+  }
+  .about__games_end {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    gap: 24px;
+  }
 }/*# sourceMappingURL=stile_mygame.css.map */

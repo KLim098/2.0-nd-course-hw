@@ -3,9 +3,6 @@
     padding: 0;
 }
 
-.center {
-}
-
 html {
     scroll-behavior: smooth;
 }
@@ -21,32 +18,24 @@ html {
 }
 
 .title {
-    height: 710px;
-    width: 769px;
-    height: 358px;
     padding-top: 196px;
     padding-left: 120px;
-
-    &__content {
-        width: 769px;
-    }
-
-    &__content__one {
+    &__content_title {
         font-family: Montserrat;
         font-size: 64px;
         font-weight: 700;
         line-height: 78.02px;
-        text-align: left;
+        width: 769px;
     }
 
-    &__content__two {
+    &__content_subtitle {
         padding-top: 24px;
         padding-bottom: 48px;
         font-family: Montserrat;
         font-size: 24px;
         font-weight: 400;
         line-height: 32px;
-        text-align: left;
+        width: 720px;
     }
 
     &__link {
@@ -65,7 +54,6 @@ html {
         height: 66px;
         border-radius: 60px;
         border: 1px;
-
         font-family: Montserrat;
         font-size: 24px;
         font-weight: 600;
@@ -96,18 +84,19 @@ html {
 }
 
 .about {
+    display: grid;
+    justify-content: center;
+
+    &__content {
+        padding-top: 94px;
+        padding-bottom: 72px;
+    }
+
     &__link {
         text-decoration: none;
     }
 
-    &__content {
-        padding-top: 94px;
-        padding-left: 119px;
-        height: 198px;
-        margin-bottom: 72px;
-    }
-
-    &__content__one {
+    &__content_title {
         font-family: Montserrat;
         font-size: 64px;
         font-weight: 700;
@@ -116,7 +105,15 @@ html {
         color: white;
     }
 
-    &__content__two {
+    &__content_mobile {
+        display: none;
+    }
+
+    &__content_vermobile {
+        display: none;
+    }
+
+    &__content_subtitle {
         padding-top: 24px;
         font-family: Montserrat;
         font-size: 24px;
@@ -124,10 +121,9 @@ html {
         line-height: 32px;
         text-align: left;
         color: white;
-        width: 788px;
     }
 
-    &__games__one {
+    &__games_start {
         display: flex;
         flex-direction: row;
         flex-wrap: wrap;
@@ -136,7 +132,7 @@ html {
         justify-content: center;
     }
 
-    &__games__two {
+    &__games_end {
         display: flex;
         flex-direction: row;
         flex-wrap: wrap;
@@ -158,26 +154,26 @@ html {
         display: block;
     }
 
-    &__height__one {
+    &__height_one {
         height: 473px;
     }
-    &__height__two {
+    &__height_two {
         height: 512px;
     }
-    &__height__three {
+    &__height_three {
         height: 473px;
     }
-    &__height__four {
+    &__height_four {
         height: 551px;
     }
-    &__height__five {
-        height: 512px;
+    &__height_five {
+        height: 528px;
     }
-    &__height__six {
+    &__height_six {
         height: 551px;
     }
 
-    &__content__game {
+    &__content_game {
         margin-top: 32px;
         width: 108px;
         height: 36px;
@@ -195,9 +191,11 @@ html {
     &__name {
         padding-top: 8px;
         text-align: center;
+        color:  rgba(39, 26, 88, 1);
+
     }
 
-    &__name__game {
+    &__name_game {
         margin-left: 32px;
         font-family: Montserrat;
         font-size: 32px;
@@ -207,3 +205,5 @@ html {
         color: rgba(32, 32, 39, 1);
     }
 }
+
+@import "mobver";
