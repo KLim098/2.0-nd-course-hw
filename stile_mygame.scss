@@ -191,8 +191,7 @@ html {
     &__name {
         padding-top: 8px;
         text-align: center;
-        color:  rgba(39, 26, 88, 1);
-
+        color: rgba(39, 26, 88, 1);
     }
 
     &__name_game {
@@ -203,6 +202,114 @@ html {
         line-height: 39.01px;
         text-align: left;
         color: rgba(32, 32, 39, 1);
+    }
+}
+
+.mini {
+    background-color: rgba(32, 32, 39, 1);
+    height: 3500px;
+    background-image: url(img_mygame/ministars_one.png), url(img_mygame/ministars_two.png);
+    background-position:
+        1277px 93px,
+        1249px 3366px;
+    background-repeat: no-repeat;
+
+    &__game {
+        display: grid;
+        justify-content: center;
+    }
+
+    &__game_menu {
+        padding-top: 46px;
+        padding-bottom: 72px;
+    }
+
+    &__game_name {
+        font-family: Montserrat;
+        font-size: 64px;
+        font-weight: 700;
+        line-height: 78.02px;
+        text-align: left;
+        color: white;
+    }
+
+    &__game_list {
+        display: flex;
+        flex-direction: column;
+        flex-wrap: nowrap;
+        gap: 32px;
+    }
+
+    &__window {
+        width: 1200px;
+        height: 500px;
+        border-radius: 30px;
+        background-color: white;
+        display: flex;
+        flex-direction: row;
+    }
+
+    &__window_name {
+        width: 600px;
+        padding-top: 48px;
+        padding-left: 48px;
+    }
+
+    &__window_text {
+        width: 382px;
+        height: 249px;
+    }
+
+    &__window_game {
+        font-family: Montserrat;
+        font-size: 48px;
+        font-weight: 700;
+        line-height: 58.51px;
+        text-align: left;
+        color: rgba(32, 32, 39, 1);
+        margin-bottom: 24px;
+    }
+
+    &__window_specification {
+        font-family: Montserrat;
+        font-size: 24px;
+        font-weight: 400;
+        line-height: 32px;
+        text-align: left;
+        color: rgba(32, 32, 39, 1);
+        margin-bottom: 36px;
+    }
+
+    &__button {
+        background: black;
+        width: 247px;
+        height: 66px;
+        border-radius: 60px;
+        border: 1px;
+        font-family: Montserrat;
+        font-size: 24px;
+        font-weight: 600;
+        line-height: 34.01px;
+        text-align: center;
+        color: white;
+    }
+
+    &__button:hover {
+        background-color: white;
+        color: black;
+    }
+}
+
+.footer {
+    height: 150px;
+    background-color: rgba(189, 237, 53, 1);
+    &__text {
+        padding-top: 61px;
+        font-family: Montserrat;
+        font-size: 24px;
+        font-weight: 600;
+        line-height: 29.26px;
+        text-align: center;
     }
 }
 
