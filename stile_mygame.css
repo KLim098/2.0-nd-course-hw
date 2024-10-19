@@ -7,6 +7,11 @@ html {
   scroll-behavior: smooth;
 }
 
+.center {
+  display: grid;
+  justify-content: center;
+}
+
 .top {
   height: 710px;
   background-color: rgb(225, 255, 143);
@@ -16,8 +21,8 @@ html {
 }
 
 .title {
+  width: 1200px;
   padding-top: 196px;
-  padding-left: 120px;
 }
 .title__content_title {
   font-family: Montserrat;
@@ -290,6 +295,7 @@ html {
     width: 425px;
   }
   .title {
+    width: 425px;
     padding-top: 147px;
     padding-left: 0px;
     display: flex;
@@ -436,5 +442,19 @@ html {
     align-items: center;
     flex-direction: column;
     gap: 24px;
+  }
+  .mini {
+    display: none;
+  }
+  .footer {
+    height: 100px;
+  }
+  .footer__text {
+    padding-top: 40px;
+    font-family: Montserrat;
+    font-size: 16px;
+    font-weight: 600;
+    line-height: 19.5px;
+    text-align: center;
   }
 }/*# sourceMappingURL=stile_mygame.css.map */

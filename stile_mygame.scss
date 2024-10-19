@@ -7,6 +7,12 @@ html {
     scroll-behavior: smooth;
 }
 
+.center{
+display: grid;
+justify-content: center;
+
+}
+
 .top {
     height: 710px;
     background-color: rgba(225, 255, 143, 1);
@@ -18,8 +24,8 @@ html {
 }
 
 .title {
+    width: 1200px;
     padding-top: 196px;
-    padding-left: 120px;
     &__content_title {
         font-family: Montserrat;
         font-size: 64px;

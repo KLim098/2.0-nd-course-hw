@@ -1,5 +1,5 @@
 // Задание 1
-let password = String('пароль');
+let password = "пароль";
 let userInputPassword = prompt('Введите Пароль');
 if (userInputPassword === password) {
     alert('Пароль введен верно')
@@ -9,7 +9,7 @@ else {
 };
 
 // Задание 2
-let c = ('2');
+let c = (2);
 if (c > 0 && c < 10) {
     console.log('Верно')
 }
@@ -18,7 +18,7 @@ else {
 };
 
 // Задание 3
-let d = '50', e = '55';
+let d = 50, e = 55;
 if (d > 100 || e > 100) {
     console.log('Верно')
 }
@@ -27,8 +27,8 @@ else {
 };
 
 // Задание 4
-let a = '2';
-let b = '3';
+let a = 2;
+let b = 3;
 console.log(Number(a) + Number(b));
 
 // Задание 4

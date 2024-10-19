@@ -15,6 +15,7 @@
     }
 
     .title {
+        width: 425px;
         padding-top: 147px;
         padding-left: 0px;
         display: flex;
@@ -182,6 +183,22 @@
             align-items: center;
             flex-direction: column;
             gap: 24px;
+        }
+    }
+
+    .mini {
+        display: none;
+    }
+
+    .footer {
+        height: 100px;
+        &__text {
+            padding-top: 40px;
+            font-family: Montserrat;
+            font-size: 16px;
+            font-weight: 600;
+            line-height: 19.5px;
+            text-align: center;
         }
     }
 }
