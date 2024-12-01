@@ -258,7 +258,8 @@ html {
   width: 247px;
   height: 66px;
   border-radius: 60px;
-  border: 1px;
+  border: none;
+  border-color: black;
   font-family: Montserrat;
   font-size: 24px;
   font-weight: 600;
@@ -267,8 +268,9 @@ html {
   color: white;
 }
 .mini__button:hover {
-  background-color: white;
+  background: white;
   color: black;
+  border: 1px solid #000;
 }
 
 .footer {

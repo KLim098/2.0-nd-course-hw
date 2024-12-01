@@ -22,3 +22,51 @@ function gameRandom() {
         }
     }
 }
+
+function arefmetics() {
+
+    // Функция для генерации случайной арифметической задачи
+    function generateRandomTask() {
+        const operators = ['+', '-', '*', '/'];
+        const num1 = Math.floor(Math.random() * 10) + 1;
+        const num2 = Math.floor(Math.random() * 10) + 1;
+        const operator = operators[Math.floor(Math.random() * operators.length)];
+
+
+        let task = `${num1} ${operator} ${num2}`;
+        let correctAnswer;
+
+
+        switch (operator) {
+            case '+':
+                correctAnswer = num1 + num2;
+                break;
+            case '-':
+                correctAnswer = num1 - num2;
+                break;
+            case '*':
+                correctAnswer = num1 * num2;
+                break;
+            case '/':
+                correctAnswer = (num1 / num2).toFixed(2);
+                break;
+        }
+
+        return { task, correctAnswer };
+    }
+
+
+    const { task, correctAnswer } = generateRandomTask();
+
+
+    let userAnswer = prompt(`Решите задачу: ${task}`);
+
+    userAnswer = parseFloat(userAnswer);
+
+
+    if (userAnswer === correctAnswer) {
+        alert('Верно!');
+    } else {
+        alert(`Неверно! Правильный ответ: ${correctAnswer}`);
+    }
+}
