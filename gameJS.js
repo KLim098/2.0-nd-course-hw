@@ -120,3 +120,36 @@ function runQuiz() {
 
 runQuiz();
 }
+
+function rockScissorsPaper() {
+    // Массив с возможными вариантами
+const options = ["камень", "ножницы", "бумага"];
+
+// Запрашиваем у пользователя выбор
+let userChoice = prompt("Введите ваш выбор: камень, ножницы или бумага").toLowerCase();
+
+// Проверяем, является ли выбор пользователя допустимым
+if (!options.includes(userChoice)) {
+    alert("Неверный выбор! Пожалуйста, выберите камень, ножницы или бумагу.");
+} else {
+    // Генерируем случайный выбор компьютера
+    const computerChoice = options[Math.floor(Math.random() * options.length)];
+
+    // Определяем победителя
+    let result;
+    if (userChoice === computerChoice) {
+        result = "Ничья!";
+    } else if (
+        (userChoice === "камень" && computerChoice === "ножницы") ||
+        (userChoice === "ножницы" && computerChoice === "бумага") ||
+        (userChoice === "бумага" && computerChoice === "камень")
+    ) {
+        result = "Вы победили!";
+    } else {
+        result = "Вы проиграли!";
+    }
+
+    // Выводим результаты
+    alert(`Ваш выбор: ${userChoice}\nВыбор компьютера: ${computerChoice}\nРезультат: ${result}`);
+}
+}
