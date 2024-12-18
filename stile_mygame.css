@@ -136,6 +136,7 @@ html {
   border-radius: 32px;
   display: inline-block;
   overflow: hidden;
+  transition: 1s;
 }
 .about__window:hover {
   transform: scale(1.05);
