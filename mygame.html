@@ -17,20 +17,20 @@
     <script src="gameJS.js"></script>
     <div class="top">
         <section class="center">
-        <div class="title">
-            <h1 class="title__content_title">Добро пожаловать на мой сайт мини-игр</h1>
-            <p class="title__content_subtitle">Тебе предстоит пройти несколько увлекательных игр. Если готов,
-                нажимай
-                <a class="title__link" href="index.html">Поехали!</a> и <a class="title__link"
-                    href="index.html">приступай</a>
-            </p>
-            <div>
-                <form class="title__button_top" action="#skrull">
-                    <button class="title__button">Поехали!</button>
-                </form>
+            <div class="title">
+                <h1 class="title__content_title">Добро пожаловать на мой сайт мини-игр</h1>
+                <p class="title__content_subtitle">Тебе предстоит пройти несколько увлекательных игр. Если готов,
+                    нажимай
+                    <a class="title__link" href="index.html">Поехали!</a> и <a class="title__link"
+                        href="index.html">приступай</a>
+                </p>
+                <div>
+                    <form class="title__button_top" action="#skrull">
+                        <button class="title__button">Поехали!</button>
+                    </form>
+                </div>
             </div>
-        </div>
-    </section>
+        </section>
     </div>
     <div class="block">
     </div>
@@ -220,7 +220,7 @@
             </div>
             <div class="mini__game_list">
                 <div id="number" class="mini__window">
-                    <div  class="mini__window_name">
+                    <div class="mini__window_name">
                         <div class="mini__window_text">
                             <p class="mini__window_game">
                                 Угадай число
@@ -231,7 +231,7 @@
                             <button onclick="gameRandom()" class="mini__button">
                                 Играть!
                             </button>
-                            
+
                         </div>
                     </div>
                     <div>
@@ -322,7 +322,7 @@
                             <p class="mini__window_specification">
                                 Игра, в которой при клике на кнопку фон страницы меняется на случайный.
                             </p>
-                            <button class="mini__button">
+                            <button id="randomColors" class="mini__button">
                                 Играть!
                             </button>
                         </div>
@@ -331,6 +331,29 @@
             </div>
         </section>
     </div>
+    <script>
+        // Функция для генерации случайного цвета
+        function getRandomColor() {
+            const letters = '0123456789ABCDEF';
+            let color = '#';
+            for (let i = 0; i < 6; i++) {
+                color += letters[Math.floor(Math.random() * 16)];
+            }
+            return color;
+        }
+
+        // Функция для изменения цвета фона
+        document.getElementById('randomColors').onclick = function () {
+            const topElement = document.querySelector('.top');
+            const miniElement = document.querySelector('.mini');
+            const menuElement = document.querySelector('.menu1');
+            const footerElement = document.querySelector('.footer');
+            topElement.style.backgroundColor = getRandomColor();
+            miniElement.style.backgroundColor = getRandomColor();
+            menuElement.style.backgroundColor = getRandomColor(); 
+            footerElement.style.backgroundColor = getRandomColor();
+        };
+    </script>
     <footer class="footer">
         <p class="footer__text">Все права защищены.</p>
     </footer>
