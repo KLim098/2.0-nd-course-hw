@@ -24,14 +24,14 @@ html {
   width: 1200px;
   padding-top: 196px;
 }
-.title__content_title {
+.title__contentTitle {
   font-family: Montserrat;
   font-size: 64px;
   font-weight: 700;
   line-height: 78.02px;
   width: 769px;
 }
-.title__content_subtitle {
+.title__contentSubtitle {
   padding-top: 24px;
   padding-bottom: 48px;
   font-family: Montserrat;
@@ -61,6 +61,7 @@ html {
   line-height: 34.01px;
   text-align: center;
   color: white;
+  transition: 0.5s;
 }
 .title__button:hover {
   background-color: white;
@@ -91,7 +92,7 @@ html {
 .about__link {
   text-decoration: none;
 }
-.about__content_title {
+.about__contentTitle {
   font-family: Montserrat;
   font-size: 64px;
   font-weight: 700;
@@ -99,13 +100,13 @@ html {
   text-align: left;
   color: white;
 }
-.about__content_mobile {
+.about__contentMobile {
   display: none;
 }
-.about__content_vermobile {
+.about__contentVermobile {
   display: none;
 }
-.about__content_subtitle {
+.about__contentSubtitle {
   padding-top: 24px;
   font-family: Montserrat;
   font-size: 24px;
@@ -114,7 +115,7 @@ html {
   text-align: left;
   color: white;
 }
-.about__games_start {
+.about__gamesStart {
   display: flex;
   flex-direction: row;
   flex-wrap: wrap;
@@ -122,7 +123,7 @@ html {
   align-items: flex-start;
   justify-content: center;
 }
-.about__games_end {
+.about__gamesEnd {
   display: flex;
   flex-direction: row;
   flex-wrap: wrap;
@@ -140,7 +141,6 @@ html {
 }
 .about__window:hover {
   transform: scale(1.05);
-  transition: 0.5s;
   display: block;
 }
 .about__height_one {
@@ -161,7 +161,7 @@ html {
 .about__height_six {
   height: 551px;
 }
-.about__content_game {
+.about__contentGame {
   margin-top: 32px;
   width: 108px;
   height: 36px;
@@ -180,7 +180,7 @@ html {
   text-align: center;
   color: rgb(39, 26, 88);
 }
-.about__name_game {
+.about__nameGame {
   margin-left: 32px;
   font-family: Montserrat;
   font-size: 32px;
@@ -201,11 +201,11 @@ html {
   display: grid;
   justify-content: center;
 }
-.mini__game_menu {
+.mini__gameMenu {
   padding-top: 46px;
   padding-bottom: 72px;
 }
-.mini__game_name {
+.mini__gameName {
   font-family: Montserrat;
   font-size: 64px;
   font-weight: 700;
@@ -213,7 +213,7 @@ html {
   text-align: left;
   color: white;
 }
-.mini__game_list {
+.mini__gameList {
   display: flex;
   flex-direction: column;
   flex-wrap: nowrap;
@@ -227,16 +227,16 @@ html {
   display: flex;
   flex-direction: row;
 }
-.mini__window_name {
+.mini__windowName {
   width: 600px;
   padding-top: 48px;
   padding-left: 48px;
 }
-.mini__window_text {
+.mini__windowText {
   width: 382px;
   height: 249px;
 }
-.mini__window_game {
+.mini__textGame {
   font-family: Montserrat;
   font-size: 48px;
   font-weight: 700;
@@ -245,7 +245,7 @@ html {
   color: rgb(32, 32, 39);
   margin-bottom: 24px;
 }
-.mini__window_specification {
+.mini____textSpecification {
   font-family: Montserrat;
   font-size: 24px;
   font-weight: 400;
@@ -267,6 +267,7 @@ html {
   line-height: 34.01px;
   text-align: center;
   color: white;
+  transition: 0.5s;
 }
 .mini__button:hover {
   background: white;
@@ -306,14 +307,14 @@ html {
     align-items: center;
     text-align: center;
   }
-  .title__content_title {
+  .title__contentTitle {
     width: 262px;
     font-family: Montserrat;
     font-size: 40px;
     font-weight: 700;
     line-height: 48.76px;
   }
-  .title__content_subtitle {
+  .title__contentSubtitle {
     width: 296px;
     font-family: Montserrat;
     font-size: 16px;
@@ -328,7 +329,7 @@ html {
     line-height: 19.5px;
   }
   .title__button {
-    width: 285pxpx;
+    width: 285px;
     height: 55px;
     font-family: Montserrat;
     font-size: 16px;
@@ -340,7 +341,6 @@ html {
     height: 50px;
   }
   .menu1 {
-    height: 375px;
     height: 3740px;
     width: 425px;
   }
@@ -348,7 +348,7 @@ html {
     padding-top: 48px;
     padding-bottom: 48px;
   }
-  .about__content_title {
+  .about__contentTitle {
     display: none;
   }
   .about__height_one {
@@ -375,7 +375,7 @@ html {
   .about__game {
     height: 285px;
   }
-  .about__content_mobile {
+  .about__contentMobile {
     display: contents;
     font-family: Montserrat;
     font-size: 40px;
@@ -388,7 +388,7 @@ html {
   .about__link {
     text-align: center;
   }
-  .about__button_mobile {
+  .about__buttonMobile {
     width: 285px;
     height: 55px;
     border-radius: 60px;
@@ -400,27 +400,27 @@ html {
     font-weight: 600;
     line-height: 22.67px;
   }
-  .about__name_game {
+  .about__nameGame {
     width: 285px;
   }
-  .about__button_mobile:hover {
+  .about__buttonMobile:hover {
     background-color: white;
     color: black;
   }
-  .about__content_subtitle {
+  .about__contentSubtitle {
     display: none;
   }
-  .about__content_verlaptop {
+  .about__contentVerlaptop {
     display: none;
   }
-  .about__content_vermobile {
+  .about__contentVermobile {
     display: inline;
   }
-  .about__name_game {
+  .about__nameGame {
     margin-top: 29px;
     margin-left: 29px;
   }
-  .about__name_mobile {
+  .about__nameMobile {
     height: 40px;
     margin-top: 16px;
     margin-left: 29px;
@@ -433,14 +433,14 @@ html {
     margin-bottom: 32px;
     color: rgb(39, 26, 88);
   }
-  .about__games_start {
+  .about__gamesStart {
     display: flex;
     align-items: center;
     flex-direction: column;
     gap: 24px;
     margin-bottom: 24px;
   }
-  .about__games_end {
+  .about__gamesEnd {
     display: flex;
     align-items: center;
     flex-direction: column;
@@ -451,6 +451,7 @@ html {
   }
   .footer {
     height: 100px;
+    width: 425px;
   }
   .footer__text {
     padding-top: 40px;

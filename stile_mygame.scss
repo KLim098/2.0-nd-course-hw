@@ -26,7 +26,7 @@ justify-content: center;
 .title {
     width: 1200px;
     padding-top: 196px;
-    &__content_title {
+    &__contentTitle {
         font-family: Montserrat;
         font-size: 64px;
         font-weight: 700;
@@ -34,7 +34,7 @@ justify-content: center;
         width: 769px;
     }
 
-    &__content_subtitle {
+    &__contentSubtitle {
         padding-top: 24px;
         padding-bottom: 48px;
         font-family: Montserrat;
@@ -66,6 +66,7 @@ justify-content: center;
         line-height: 34.01px;
         text-align: center;
         color: white;
+        transition: 0.5s;
     }
 
     &__button:hover {
@@ -102,7 +103,7 @@ justify-content: center;
         text-decoration: none;
     }
 
-    &__content_title {
+    &__contentTitle {
         font-family: Montserrat;
         font-size: 64px;
         font-weight: 700;
@@ -111,15 +112,15 @@ justify-content: center;
         color: white;
     }
 
-    &__content_mobile {
+    &__contentMobile {
         display: none;
     }
 
-    &__content_vermobile {
+    &__contentVermobile {
         display: none;
     }
 
-    &__content_subtitle {
+    &__contentSubtitle {
         padding-top: 24px;
         font-family: Montserrat;
         font-size: 24px;
@@ -129,7 +130,7 @@ justify-content: center;
         color: white;
     }
 
-    &__games_start {
+    &__gamesStart {
         display: flex;
         flex-direction: row;
         flex-wrap: wrap;
@@ -138,7 +139,7 @@ justify-content: center;
         justify-content: center;
     }
 
-    &__games_end {
+    &__gamesEnd {
         display: flex;
         flex-direction: row;
         flex-wrap: wrap;
@@ -158,7 +159,6 @@ justify-content: center;
     }
     &__window:hover {
         transform: scale(1.05);
-        transition: 0.5s;
         display: block;
     }
 
@@ -181,7 +181,7 @@ justify-content: center;
         height: 551px;
     }
 
-    &__content_game {
+    &__contentGame {
         margin-top: 32px;
         width: 108px;
         height: 36px;
@@ -202,7 +202,7 @@ justify-content: center;
         color: rgba(39, 26, 88, 1);
     }
 
-    &__name_game {
+    &__nameGame {
         margin-left: 32px;
         font-family: Montserrat;
         font-size: 32px;
@@ -227,12 +227,12 @@ justify-content: center;
         justify-content: center;
     }
 
-    &__game_menu {
+    &__gameMenu {
         padding-top: 46px;
         padding-bottom: 72px;
     }
 
-    &__game_name {
+    &__gameName {
         font-family: Montserrat;
         font-size: 64px;
         font-weight: 700;
@@ -241,7 +241,7 @@ justify-content: center;
         color: white;
     }
 
-    &__game_list {
+    &__gameList {
         display: flex;
         flex-direction: column;
         flex-wrap: nowrap;
@@ -257,18 +257,18 @@ justify-content: center;
         flex-direction: row;
     }
 
-    &__window_name {
+    &__windowName {
         width: 600px;
         padding-top: 48px;
         padding-left: 48px;
     }
 
-    &__window_text {
+    &__windowText {
         width: 382px;
         height: 249px;
     }
 
-    &__window_game {
+    &__textGame {
         font-family: Montserrat;
         font-size: 48px;
         font-weight: 700;
@@ -278,7 +278,7 @@ justify-content: center;
         margin-bottom: 24px;
     }
 
-    &__window_specification {
+    &____textSpecification {
         font-family: Montserrat;
         font-size: 24px;
         font-weight: 400;
@@ -301,6 +301,7 @@ justify-content: center;
         line-height: 34.01px;
         text-align: center;
         color: white;
+        transition: 0.5s;
     }
 
     &__button:hover {

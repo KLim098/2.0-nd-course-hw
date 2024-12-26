@@ -22,7 +22,7 @@
         flex-direction: column;
         align-items: center;
         text-align: center;
-        &__content_title {
+        &__contentTitle {
             width: 262px;
             font-family: Montserrat;
             font-size: 40px;
@@ -30,7 +30,7 @@
             line-height: 48.76px;
         }
 
-        &__content_subtitle {
+        &__contentSubtitle {
             width: 296px;
             font-family: Montserrat;
             font-size: 16px;
@@ -47,7 +47,7 @@
         }
 
         &__button {
-            width: 285pxpx;
+            width: 285px;
             height: 55px;
             font-family: Montserrat;
             font-size: 16px;
@@ -62,7 +62,6 @@
     }
 
     .menu1 {
-        height: 375px;
         height: 3740px;
         width: 425px;
     }
@@ -73,7 +72,7 @@
             padding-bottom: 48px;
         }
 
-        &__content_title {
+        &__contentTitle {
             display: none;
         }
 
@@ -104,7 +103,7 @@
             height: 285px;
         }
 
-        &__content_mobile {
+        &__contentMobile {
             display: contents;
             font-family: Montserrat;
             font-size: 40px;
@@ -119,7 +118,7 @@
             text-align: center;
         }
 
-        &__button_mobile {
+        &__buttonMobile {
             width: 285px;
             height: 55px;
             border-radius: 60px;
@@ -131,33 +130,33 @@
             font-weight: 600;
             line-height: 22.67px;
         }
-        &__name_game {
+        &__nameGame {
             width: 285px;
         }
 
-        &__button_mobile:hover {
+        &__buttonMobile:hover {
             background-color: white;
             color: black;
         }
 
-        &__content_subtitle {
+        &__contentSubtitle {
             display: none;
         }
 
-        &__content_verlaptop {
+        &__contentVerlaptop {
             display: none;
         }
 
-        &__content_vermobile {
+        &__contentVermobile {
             display: inline;
         }
 
-        &__name_game {
+        &__nameGame {
             margin-top: 29px;
             margin-left: 29px;
         }
 
-        &__name_mobile {
+        &__nameMobile {
             height: 40px;
             margin-top: 16px;
             margin-left: 29px;
@@ -171,14 +170,14 @@
             color: rgba(39, 26, 88, 1);
         }
 
-        &__games_start {
+        &__gamesStart {
             display: flex;
             align-items: center;
             flex-direction: column;
             gap: 24px;
             margin-bottom: 24px;
         }
-        &__games_end {
+        &__gamesEnd {
             display: flex;
             align-items: center;
             flex-direction: column;
@@ -192,6 +191,7 @@
 
     .footer {
         height: 100px;
+        width: 425px;
         &__text {
             padding-top: 40px;
             font-family: Montserrat;
