@@ -26,7 +26,7 @@ justify-content: center;
 .title {
     width: 1200px;
     padding-top: 196px;
-    &__contentTitle {
+    &__content_title {
         font-family: Montserrat;
         font-size: 64px;
         font-weight: 700;
@@ -34,7 +34,7 @@ justify-content: center;
         width: 769px;
     }
 
-    &__contentSubtitle {
+    &__content_subtitle {
         padding-top: 24px;
         padding-bottom: 48px;
         font-family: Montserrat;
@@ -103,7 +103,7 @@ justify-content: center;
         text-decoration: none;
     }
 
-    &__contentTitle {
+    &__content_title {
         font-family: Montserrat;
         font-size: 64px;
         font-weight: 700;
@@ -112,15 +112,15 @@ justify-content: center;
         color: white;
     }
 
-    &__contentMobile {
+    &__content_mobile {
         display: none;
     }
 
-    &__contentVermobile {
+    &__content_vermobile {
         display: none;
     }
 
-    &__contentSubtitle {
+    &__content_subtitle {
         padding-top: 24px;
         font-family: Montserrat;
         font-size: 24px;
@@ -130,7 +130,7 @@ justify-content: center;
         color: white;
     }
 
-    &__gamesStart {
+    &__games_start {
         display: flex;
         flex-direction: row;
         flex-wrap: wrap;
@@ -181,7 +181,7 @@ justify-content: center;
         height: 551px;
     }
 
-    &__contentGame {
+    &__content_game {
         margin-top: 32px;
         width: 108px;
         height: 36px;
@@ -202,7 +202,7 @@ justify-content: center;
         color: rgba(39, 26, 88, 1);
     }
 
-    &__nameGame {
+    &__name_game {
         margin-left: 32px;
         font-family: Montserrat;
         font-size: 32px;
@@ -227,12 +227,12 @@ justify-content: center;
         justify-content: center;
     }
 
-    &__gameMenu {
+    &__game_menu {
         padding-top: 46px;
         padding-bottom: 72px;
     }
 
-    &__gameName {
+    &__game_name {
         font-family: Montserrat;
         font-size: 64px;
         font-weight: 700;
@@ -241,7 +241,7 @@ justify-content: center;
         color: white;
     }
 
-    &__gameList {
+    &__game_list {
         display: flex;
         flex-direction: column;
         flex-wrap: nowrap;
@@ -257,18 +257,18 @@ justify-content: center;
         flex-direction: row;
     }
 
-    &__windowName {
+    &__window_name {
         width: 600px;
         padding-top: 48px;
         padding-left: 48px;
     }
 
-    &__windowText {
+    &__window_text {
         width: 382px;
         height: 249px;
     }
 
-    &__textGame {
+    &__text_game {
         font-family: Montserrat;
         font-size: 48px;
         font-weight: 700;
@@ -278,7 +278,7 @@ justify-content: center;
         margin-bottom: 24px;
     }
 
-    &____textSpecification {
+    &__text_specification {
         font-family: Montserrat;
         font-size: 24px;
         font-weight: 400;

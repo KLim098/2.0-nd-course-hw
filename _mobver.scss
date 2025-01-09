@@ -22,7 +22,7 @@
         flex-direction: column;
         align-items: center;
         text-align: center;
-        &__contentTitle {
+        &__content_title {
             width: 262px;
             font-family: Montserrat;
             font-size: 40px;
@@ -30,7 +30,7 @@
             line-height: 48.76px;
         }
 
-        &__contentSubtitle {
+        &__content_subtitle {
             width: 296px;
             font-family: Montserrat;
             font-size: 16px;
@@ -72,7 +72,7 @@
             padding-bottom: 48px;
         }
 
-        &__contentTitle {
+        &__content_title {
             display: none;
         }
 
@@ -103,7 +103,7 @@
             height: 285px;
         }
 
-        &__contentMobile {
+        &__content_mobile {
             display: contents;
             font-family: Montserrat;
             font-size: 40px;
@@ -118,7 +118,7 @@
             text-align: center;
         }
 
-        &__buttonMobile {
+        &__button_mobile {
             width: 285px;
             height: 55px;
             border-radius: 60px;
@@ -130,33 +130,33 @@
             font-weight: 600;
             line-height: 22.67px;
         }
-        &__nameGame {
+        &__name_game {
             width: 285px;
         }
 
-        &__buttonMobile:hover {
+        &__button_mobile:hover {
             background-color: white;
             color: black;
         }
 
-        &__contentSubtitle {
+        &__content_subtitle {
             display: none;
         }
 
-        &__contentVerlaptop {
+        &__content_verlaptop {
             display: none;
         }
 
-        &__contentVermobile {
+        &__content_vermobile {
             display: inline;
         }
 
-        &__nameGame {
+        &__name_game {
             margin-top: 29px;
             margin-left: 29px;
         }
 
-        &__nameMobile {
+        &__name_mobile {
             height: 40px;
             margin-top: 16px;
             margin-left: 29px;
@@ -170,7 +170,7 @@
             color: rgba(39, 26, 88, 1);
         }
 
-        &__gamesStart {
+        &__games_start {
             display: flex;
             align-items: center;
             flex-direction: column;
