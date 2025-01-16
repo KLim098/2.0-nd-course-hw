@@ -73,35 +73,35 @@
                 display: none;
             }
 
-            &--height-one {
-                height: 529px;
-            }
-
-            &--height-two {
-                height: 567px;
-            }
-
-            &--height-three {
-                height: 567px;
-            }
-
-            &--height-four {
-                height: 606px;
-            }
-
-            &--height-five {
-                height: 528px;
-            }
-
-            &--height-six {
-                height: 626px;
-            }
-
             &-window {
                 width: 343px;
+
+                &--height-one {
+                    height: 529px;
+                }
+
+                &--height-two {
+                    height: 567px;
+                }
+
+                &--height-three {
+                    height: 567px;
+                }
+
+                &--height-four {
+                    height: 606px;
+                }
+
+                &--height-five {
+                    height: 528px;
+                }
+
+                &--height-six {
+                    height: 626px;
+                }
             }
 
-            &--size-img {
+            &-img {
                 height: 285px;
             }
 
@@ -113,14 +113,13 @@
                 line-height: 48.76px;
                 text-align: left;
                 color: white;
-                font-family: Montserrat;
             }
 
             &-link {
                 text-align: center;
             }
 
-            &--button-mobile {
+            &-button-mobile {
                 width: 285px;
                 height: 55px;
                 border-radius: 60px;
@@ -131,6 +130,10 @@
                 font-size: 16px;
                 font-weight: 600;
                 line-height: 22.67px;
+                display: block; // Убедитесь, что кнопка отображается
+                margin: 0 auto; // Центрирование кнопки
+                transition: 0.5s;
+
                 &:hover {
                     background-color: white;
                     color: black;
@@ -145,17 +148,17 @@
                 display: none;
             }
 
-            &--mobile-content {
-                display: inline;
+            &-mobile-content {
+                display: block; // Убедитесь, что контейнер кнопки отображается
             }
 
-            &--name-game {
+            &-name-game {
                 margin-top: 29px;
                 margin-left: 29px;
                 width: 285px;
             }
 
-            &--mobile-name {
+            &-mobile-name {
                 height: 40px;
                 margin-top: 16px;
                 margin-left: 29px;
