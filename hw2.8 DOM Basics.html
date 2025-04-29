@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+    <!-- Задание 1 -->
+    <h1 id="myHeader">Скрой меня пожалуйста!</h1>
+    <button id="toggleButton">Скрыть</button>
+
+    <script>
+        const header = document.querySelector('#myHeader');
+        const button = document.querySelector('#toggleButton');
+
+        button.addEventListener('click', () => {
+            if (header.style.display === 'none') {
+                header.style.display = 'block';
+                button.textContent = 'Скрыть';
+            } else {
+                header.style.display = 'none';
+                button.textContent = 'Показать';
+            }
+        });
+    </script>
+
+    <!-- Задание 2 -->
+    <p id="myParagraph">Я текст, поиграй со мной!</p>
+    <button id="changeColorButton">Изменить цвет</button>
+
+    <script>
+        const paragraph = document.querySelector('#myParagraph');
+        const buttonTwo = document.querySelector('#changeColorButton');
+
+        buttonTwo.addEventListener('click', () => {
+            paragraph.style.color = 'blue'; // Изменяем цвет текста на синий
+        });
+    </script>
+
+    <!-- Задание 3 -->
+
+    <button id="iAmButton">Изменить текст</button>
+
+    <script>
+        const buttonThree = document.querySelector('#iAmButton');
+
+        buttonThree.addEventListener('click', () => {
+            paragraph.textContent = 'Привет, мир!'; // Изменяем текст заголовка
+        });
+    </script>
+
+    <!-- Задание 4 -->
+
+    <div class="description">Первый элемент с описанием.</div>
+    <div class="description">Второй элемент с описанием.</div>
+    <div class="description">Третий элемент с описанием.</div>
+    <div class="other-class">Этот элемент не изменится.</div>
+
+    <script>
+        const elements = document.querySelectorAll('.description');
+
+        elements.forEach(element => {
+            element.textContent = 'Измененный текст';
+        });
+    </script>
+
+    <!-- Задание 5 -->
+
+    <p class="descriptionP">Страый текст</p>
+    <p class="other-class">Страый текст</p>
+    <p class="descriptionP">Страый текст</p>
+    <p class="other-class">Страый текст</p>
+
+    <script>
+        // Находим все элементы с классом 'descriptionP'
+        const elP = document.querySelectorAll('.descriptionP');
+
+        // Перебираем найденные элементы и изменяем их текст
+        elP.forEach(element => {
+            element.textContent = 'Новый текст';
+        });
+    </script>
+
+    <!-- Задание 6 -->
+
+    <button id="addParagraphButton">Добавить элемент</button>
+
+    <script>
+        const buttonEl = document.getElementById('addParagraphButton');
+
+        // Добавляем обработчик события нажатия на кнопку
+        buttonEl.addEventListener('click', function () {
+            // Создаем новый элемент <p>
+            const newParagraph = document.createElement('p');
+            // Устанавливаем текст нового абзаца
+            newParagraph.textContent = 'Новый абзац';
+            // Добавляем новый абзац в конец документа
+            document.body.appendChild(newParagraph);
+        });
+    </script>
+
+    <!-- задание 7 -->
+
+    <p class="descriptionSeven">Первый абзац с описанием.</p>
+    <p class="descriptionSeven">Второй абзац с описанием.</p>
+    <p class="other-class">Меня не удалить!</p>
+    <p class="descriptionSeven">Третий абзац с описанием.</p>
+
+    <button id="removeParagraphButton">Удалить элемент</button>
+
+    <script>
+        // Находим кнопку по ID
+        const buttonElemment = document.getElementById('removeParagraphButton');
+
+        // Добавляем обработчик события нажатия на кнопку
+        buttonElemment.addEventListener('click', function () {
+            // Находим первый элемент с классом 'description'
+            const firstDescription = document.querySelector('.descriptionSeven');
+            // Если элемент найден, удаляем его
+            if (firstDescription) {
+                firstDescription.remove();
+            }
+        });
+    </script>
+</body>
+
+</html>

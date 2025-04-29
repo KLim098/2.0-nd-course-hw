@@ -1,26 +1,35 @@
 function gameRandom() {
-    // Генерация случайного числа от 1 до 100
-    const randomNumber = Math.floor(Math.random() * 100) + 1;
-    let guess = 0;
-    let attempts = 0;
+// Генерируем случайное число от 1 до 100
+const secretNumber = Math.floor(Math.random() * 100) + 1;
+let guess = null;
 
-    while (guess !== randomNumber) {
-        guess = Number(prompt("Угадайте число от 1 до 100:"));
-        attempts++;
+alert("Угадайте число от 1 до 100");
 
-        if (isNaN(guess)) {
-            alert("Пожалуйста, введите действительное число.");
-            continue;
-        }
+while (guess !== secretNumber) {
 
-        if (guess < randomNumber) {
-            alert("Загаданое число больше! Попробуйте еще раз.");
-        } else if (guess > randomNumber) {
-            alert("Загаданое число меньше! Попробуйте еще раз.");
-        } else {
-            alert(`Поздравляем! Вы угадали число ${randomNumber} за ${attempts} раз.`);
-        }
+    const userInput = prompt("Пожалуйста, введите число.");
+
+    // Проверяем, хочет ли пользователь выйти
+    if (userInput.toLowerCase() === 'пока') {
+        alert("Игра завершена. Спасибо за игру!");
+        break;
     }
+
+    guess = Number(userInput);
+
+    if (isNaN(guess)) {
+        alert("Пожалуйста, введите число.");
+        continue;
+    }
+
+    if (guess < secretNumber) {
+        alert("Загаданное число больше.");
+    } else if (guess > secretNumber) {
+        alert("Загаданное число меньше.");
+    } else {
+        alert("Поздравляю! Вы угадали число " + secretNumber + "!");
+    }
+}
 }
 
 function arefmetics() {
